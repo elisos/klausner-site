@@ -78,14 +78,18 @@ header {
 /*Main navigation*/
 
 .main-nav {
-    float: right;
     list-style: none;
-    margin: 30px 0 28px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    padding: 30px auto 28px;
 }
+
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-top: 28px;
 }
 
 .main-nav li a:link,
