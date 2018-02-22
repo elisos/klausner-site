@@ -399,6 +399,9 @@ h2:after {
     padding: 15px;
 }
 
+#facebook-icon {
+  height: 60px;
+}
 
 /*------------footer---------------*/
 #footer {
